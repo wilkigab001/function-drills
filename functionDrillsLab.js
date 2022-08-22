@@ -367,6 +367,20 @@ function ascending(arr){
 
 const arrayIsAscending = ascending(sampleArray)
 console.log(arrayIsAscending)
+
+//joelys solution
+
+function checkArrayAscending(arr){
+  let comparisonValue = arr[0]
+  for(i = 0; i < arr.length; ++i){
+    if(arr[i] < comparisonValue){
+      return false
+    }else{
+      comparisonValue = arr[i]
+    }
+  }
+  return true
+}
 ////////////////// PROBLEM 22 ////////////////////
 
 let duck = "cute";
