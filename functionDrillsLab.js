@@ -381,6 +381,9 @@ function checkArrayAscending(arr){
   }
   return true
 }
+
+let arrayIsAscending2 = checkArrayAscending(sampleArray)
+console.log(arrayIsAscending2)
 ////////////////// PROBLEM 22 ////////////////////
 
 let duck = "cute";
